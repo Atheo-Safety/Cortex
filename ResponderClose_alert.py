@@ -6,6 +6,9 @@ import configparser
 import json
 from cortexutils.responder import Responder
 
+with open("alertazerty.success","w") as file:
+    file.write("success")
+
 global config
 global thehive_api
 config = configparser.ConfigParser()

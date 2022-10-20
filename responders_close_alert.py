@@ -17,7 +17,7 @@ global thehive_api
 
 config = configparser.ConfigParser()
 
-config.read('config.ini')
+config.read('/etc/cortex/config.ini')
 
 thehive_api = TheHiveApi(config['thehive']['url'], config['thehive']['api_key'])
 

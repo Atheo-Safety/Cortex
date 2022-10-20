@@ -1,0 +1,46 @@
+[
+{
+
+  "name": "Close_Alert_HL",
+
+  "version": "1.0",
+
+  "author": "ATHEO",
+
+  "license": "",
+
+  "description": "Send new status from a TheHive case/task to HarfangLab EDR",
+
+  "url": "https://gitlab.aimcs.cloud/soc/alerting/-/blob/main",
+
+  "dataTypeList": ["thehive:case_task"],
+  
+  "commad": "ResponderClose_alert.py",
+
+  "baseConfig": "HarfangLab",
+
+  "config": {
+
+    "service": "CloseAlertHarfangLab"
+
+  },
+
+  "configurationItems": [
+
+    {
+
+      "name": "Name",
+
+      "description": "NAME OF TEST",
+
+      "type": "string",
+
+      "multi": false,
+
+      "required": true
+
+    }
+  ]
+
+}
+]

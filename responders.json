@@ -6,7 +6,7 @@
   "version": "1.0",
 
   "author": "ATHEO",
-  
+
   "license": "",
 
   "description": "Send new status from a TheHive case/task to HarfangLab EDR",
@@ -17,23 +17,28 @@
 
   "baseConfig": "HarfangLab",
 
-  "command": "responder_close_alert.py",
-  
   "config": {
 
-  "service": "close_alert"
+    "service": "isolationstart"
 
   },
 
   "configurationItems": [
+
     {
-      "name": "NAME",
+
+      "name": "Name",
+
       "description": "NAME OF TEST",
+
       "type": "string",
+
       "multi": false,
-      "required": true,
-      "defaultValue": "TEST"
+
+      "required": true
+
     }
   ]
+
 }
 ]

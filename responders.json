@@ -1,0 +1,87 @@
+[
+{
+
+  "name": "Close_Alert_HL",
+
+  "version": "1.0",
+
+  "author": "ATHEO",
+  
+  "license": "",
+
+  "description": "Send new status from a TheHive case/task to HarfangLab EDR",
+
+  "url": "https://gitlab.aimcs.cloud/soc/alerting/-/blob/main",
+
+  "dataTypeList": ["thehive:case_task"],
+
+  "baseConfig": "HarfangLab",
+
+  "config": {
+
+    "service": "isolationstart"
+
+  },
+
+  "configurationItems": [
+
+    {
+
+      "name": "amp_cloud",
+
+      "description": "FQDN of the AMP for Endpoints cloud to interact with",
+
+      "type": "string",
+
+      "multi": false,
+
+      "required": true
+
+    },
+
+    {
+
+      "name": "client_id",
+
+      "description": "Client ID for AMP for Endpoints",
+
+      "type": "string",
+
+      "multi": false,
+
+      "required": true
+
+    },
+
+    {
+
+      "name": "api_key",
+
+      "description": "API Key for AMP for Endpoints",
+
+      "type": "string",
+
+      "multi": false,
+
+      "required": true
+
+    },
+
+    {
+
+      "name": "unlock_code",
+
+      "description": "Custom unlock code used to stop isolation from the endpoint (Maximum 24 characters)",
+
+      "type": "string",
+
+      "multi": false,
+
+      "required": false
+
+    }
+
+  ]
+
+}
+]

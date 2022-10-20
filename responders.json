@@ -16,8 +16,6 @@
   "dataTypeList": ["thehive:case_task"],
 
   "baseConfig": "HarfangLab",
-  
-  "command": ["/opt/devthehive4/cortex/jobs/responders-perso/HarfangLab/test_responder.py"],
 
   "config": {
 

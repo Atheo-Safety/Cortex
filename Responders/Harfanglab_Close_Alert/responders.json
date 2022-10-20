@@ -11,17 +11,17 @@
 
   "description": "Send new status from a TheHive case/task to HarfangLab EDR",
 
-  "url": "https://gitlab.aimcs.cloud/soc/alerting/-/blob/main",
+  "url": "https://github.com/Atheo-Safety/Cortex",
 
   "dataTypeList": ["thehive:case_task"],
   
-  "commad": "ResponderClose_alert.py",
+  "commad": "responder_close_alert.py",
 
-  "baseConfig": "HarfangLab",
+  "baseConfig": "Harfanglab_Close_Alert",
 
   "config": {
 
-    "service": "CloseAlertHarfangLab"
+    "service": "Harfanglab_Close_Alert"
 
   },
 

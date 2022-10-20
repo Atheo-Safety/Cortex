@@ -16,8 +16,6 @@
   "dataTypeList": ["thehive:case_task"],
 
   "baseConfig": "HarfangLab",
-  
-  "command": ["responders_close_alert.py"],
 
   "config": {
 

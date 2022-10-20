@@ -17,7 +17,7 @@
 
   "baseConfig": "HarfangLab",
   
-  "command": "responder_close_alert.py",
+  "command": "responders_close_alert.py",
 
   "config": {
 

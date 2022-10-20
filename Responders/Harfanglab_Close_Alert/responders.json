@@ -15,7 +15,7 @@
 
   "dataTypeList": ["thehive:case_task"],
   
-  "command": ["/opt/cortex/jobs/responders-perso/HarfangLab"],
+  "command": ["HarfangLab/responders_close_alert.py"],
 
   "baseConfig": "HarfangLab",
 

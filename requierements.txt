@@ -1,0 +1,4 @@
+requests
+TheHiveApi
+configparser
+json

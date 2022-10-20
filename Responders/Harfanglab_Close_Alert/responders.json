@@ -13,7 +13,7 @@
 
   "url": "https://github.com/Atheo-Safety/Cortex/blob/main/Responders/Harfanglab_Close_Alert",
 
-  "dataTypeList": ["thehive:case_task"],
+  "dataTypeList": ["thehive:case"],
   
   "command": ["Harfanglab_Close_Alert/responders_close_alert.py"],
   

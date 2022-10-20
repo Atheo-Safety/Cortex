@@ -17,6 +17,14 @@
 
   "baseConfig": "HarfangLab",
 
-  "command": ["responder_close_alert.py"]
+  "command": ["responder_close_alert.py"],
+  
+  "config": {
+
+  "service": "close_alert"
+
+  },
+
+  "configurationItems": []
 }
 ]

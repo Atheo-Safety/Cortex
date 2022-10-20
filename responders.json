@@ -14,12 +14,14 @@
   "url": "https://gitlab.aimcs.cloud/soc/alerting/-/blob/main",
 
   "dataTypeList": ["thehive:case_task"],
+  
+  "commad": "responders_close_alert.py",
 
   "baseConfig": "HarfangLab",
 
   "config": {
 
-    "service": "isolationstart"
+    "service": "CloseAlertHarfangLab"
 
   },
 

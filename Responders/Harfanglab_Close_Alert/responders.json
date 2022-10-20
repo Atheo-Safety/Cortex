@@ -11,7 +11,7 @@
 
   "description": "Send new status from a TheHive case/task to HarfangLab EDR",
 
-  "url": "https://github.com/Atheo-Safety/Cortex",
+  "url": "https://github.com/Atheo-Safety/Cortex/blob/main/Responders/Harfanglab_Close_Alert",
 
   "dataTypeList": ["thehive:case_task"],
   

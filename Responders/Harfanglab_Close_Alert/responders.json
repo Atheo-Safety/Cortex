@@ -19,12 +19,6 @@
 
   "baseConfig": "Harfanglab_Close_Alert",
 
-  "config": {
-
-    "service": "Harfanglab_Close_Alert"
-
-  },
-
   "configurationItems": [
 
     {
